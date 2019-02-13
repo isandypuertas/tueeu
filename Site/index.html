@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+<style>
+div.a {
+  font-size: 30px;
+}
+body {
+  background-color:gray;
+}
+</style>
+</head>
+<body>
+<div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button" onclick="abreTab('tueeu')">Tu e eu</button>
+  <button class="w3-bar-item w3-button" onclick="abreTab('conceito')">Conceito</button>
+  <button class="w3-bar-item w3-button" onclick="abreTab('duo')">Duo</button>
+  <button class="w3-bar-item w3-button" onclick="abreTab('albuns')">Álbuns</button>
+  <button class="w3-bar-item w3-button" onclick="abreTab('marca')">Marca</button>
+  <button class="w3-bar-item w3-button" onclick="abreTab('colecao')">Coleções</button>
+  <button class="w3-bar-item w3-button" onclick="abreTab('contato')">Contato</button>
+</div>
+
+<div id="tueeu" class="w3-container tabs" style="margin:0px;padding:0px;">
+<div class="w3-container w3-black" style="margin:0px;padding:0px;">
+  <h2 style="margin-left:15px;">Tu e eu</h2>
+  </div>  
+  <p style="margin-left:15px;">Tu e eu é o duo formado por Gabrielle Carapina e Isabelle Puertas, duas meninas com admiração pela música que iam participar do programa do Raul Gil.</p>
+</div>
+
+<div id="conceito" class="w3-container tabs" style="display:none;margin:0px;padding:0px;">
+  <div class="w3-container w3-black" style="margin:0px;padding:0px;">
+  <h2 style="margin-left:15px;">Conceito</h2>
+  </div>  
+  <p style="margin-left:15px;">Tu e eu surgiu de uma letra e uma melodia. Uma amizade foi consolidada neste ponto e não se via mais Isabelle e Carapina, se via tu e eu.Então, cada vez mais as forças foram voltadas para o duo. Tudo o que era aprendido era visto como oportunidade para desenvolver a música em nós. É difícil admitir que vivemos e respiramos música quando fazemos coisas diferentes dela, mas viemos mostrar o muito de nós em um pouco de sintonia, voz e entrega.</p> 
+</div>
+
+<div id="duo" class="w3-container tabs" style="display:none;margin:0px;padding:0px;">
+  <div class="w3-container w3-black" style="margin:0px;padding:0px;">
+  <h2 style="margin-left:15px;">Duo</h2>
+  </div>  
+  <p style="margin-left:15px;">Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="albuns" class="w3-container tabs" style="display:none;margin:0px;padding:0px;">
+  <div class="w3-container w3-black" style="margin:0px;padding:0px;">
+  <h2 style="margin-left:15px;">Álbuns</h2>
+  </div>  
+  <p style="margin-left:15px; margin-top:50px;"> </p>
+<div style="display:flex; flex-direction:row; justify-content:center;">
+	<div class="w3-card-1" style="width:15%; background-color:black; color:white; margin-right:30px; margin-left:30px; border-radius:15px;">
+		<img src="imagemAlbum.jpg" alt="Norway" style="width:100%">
+		<div class="w3-container w3-center">
+		  <p>EP-TU E EU</p>
+		</div>
+	</div>	
+	<div class="w3-card-1" style="width:15%; background-color:black; color:white; margin-right:30px; border-radius:15px;">
+		<img src="imagemAlbum.jpg" alt="Norway" style="width:100%">
+		<div class="w3-container w3-center">
+		  <p>Álbum-TU E EU</p>
+		</div>
+	</div>	
+	<div class="w3-card-1" style="width:15%; background-color:black; color:white; margin-right:30px; border-radius:15px;">
+		<img src="imagemAlbum.jpg" alt="Norway" style="width:100%">
+		<div class="w3-container w3-center">
+		  <p>Álbum-obstaculoseinao</p>
+		</div>
+	</div>
+</div>	
+  <p style="margin-left:15px;">O primeiro EP tem 4 músicas do albúm Tu e eu, foi montado com as músicas que mais tomaram parte do nosso ser durante o desenvolvimento e demonstra uma migalha do trabalho que queremos ter. Está disponível no Youtube ainda sem videoclipes.</p>
+  <p style="margin-left:15px;">O primeiro álbum do duo surgiu no ínicio da amizade com diversos tiros de amor no peito por cada letra, verso, trecho ou melodia. A primeira música trabalhada pelo duo foi a chamada de Tu e eu, talvez você pense "uau que criativo, duo, albúm e música com o mesmo nome?", mas foi isso mesmo. Foi chamado de Tu e eu porque foi onde tudo realmente se estruturou: a dupla, a música, a ideia, o conceito e o sonho. A única coisa que se desestruturou foram nossas almas com a alegria de ver algo tomando vida.</p>
+  <p style="margin-left:15px;">O segundo álbum está em processo de desenvolvimento já com letras sinestésicas e em breve será lançado.</p>
+</div>
+
+<div id="marca" class="w3-container tabs" style="display:none;margin:0px;padding:0px;">
+  <div class="w3-container w3-black" style="margin:0px;padding:0px;">
+  <h2 style="margin-left:15px;">Marca</h2>
+  </div>  
+  <p style="margin-left:15px;">Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="colecao" class="w3-container tabs" style="display:none;margin:0px;padding:0px;">
+  <div class="w3-container w3-black" style="margin:0px;padding:0px;">
+  <h2 style="margin-left:15px;">Coleções</h2>
+  </div>  
+  <p style="margin-left:15px;">Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="contato" class="w3-container tabs" style="display:none;margin:0px;padding:0px;">
+  <div class="w3-container w3-black" style="margin:0px;padding:0px;">
+  <h2 style="margin-left:15px;">Contato</h2>
+  </div>  
+  <p style="margin-left:15px;">Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function abreTab(nomeTab) {
+  var i;
+  var x = document.getElementsByClassName("tabs");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(nomeTab).style.display = "block";  
+}
+</script>
+<div class="w3-container" style="margin:0px;padding:0px;">
+
+ <div class="w3-card-4" style="width:100%">
+    <img src="fundo.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container w3-center" style="margin:0px;padding:0px;">
+	
+  <div class="w3-container w3-black" style="margin:0px;padding:0px;">
+      <p><div class="a">Sobre tu e eu</div></p>	  
+    </div>
+
+    <div class="w3-container" style="margin:0px;padding:0px;">
+      <p>Sabemos que existe uma grande marca em expansão, sabemos também de um duo maravilhoso. De quem falamos?</p>
+	  <p>Falamos de sonhos e de música.</p>
+    </div>
+
+    <div class="w3-container w3-black" style="margin:0px;padding:0px;">
+      <p>Novidades estão por vir, se tivermos um cronograma</p>	  
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
